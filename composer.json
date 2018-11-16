@@ -1,0 +1,27 @@
+{
+    "name": "oowlish/salesforce-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony Bundle for the Salesforce APIs",
+    "keywords": [
+        "oowlish",
+        "salesforce",
+        "sdk",
+        "php"
+    ],
+    "homepage": "https://github.com/oowlish/salesforce-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oowlish\\SalesforceBundle\\": "src"
+        },
+        "exclude-from-classmap": [
+            "src/Tests/"
+        ]
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/config": "^3.0",
+        "symfony/dependency-injection": "^3.0",
+        "symfony/http-kernel": "^3.0"
+    }
+}
