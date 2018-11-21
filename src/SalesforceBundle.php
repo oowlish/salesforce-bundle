@@ -1,6 +1,6 @@
 <?php
 
-namespace PetCoach\SalesforceBundle;
+namespace Oowlish\SalesforceBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

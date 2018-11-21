@@ -1,12 +1,13 @@
 services:
-	GuzzleHttp\Client:
 
-  GuzzleHttp\ClientInterface:
-		alias: '@GuzzleHttp\Client'
+    GuzzleHttp\Client: ~
 
-	PetCoach\SalesforceBundle\Service\Salesforce:
-		arguments:
-			- '%salesforce.auth.client_id%'
-			- '%salesforce.auth.client_secret%'
-			- '@GuzzleHttp\ClientInterface'
-			- '@cache.adapter.psr6'
+    GuzzleHttp\ClientInterface:
+        alias: '@GuzzleHttp\Client'
+
+    PetCoach\SalesforceBundle\Service\Salesforce:
+        arguments:
+            - '%salesforce.auth.client_id%'
+            - '%salesforce.auth.client_secret%'
+            - '@GuzzleHttp\ClientInterface'
+            - '@cache.adapter.psr6'
