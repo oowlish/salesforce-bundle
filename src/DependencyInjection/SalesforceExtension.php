@@ -1,6 +1,6 @@
 <?php
 
-namespace PetCoach\SalesforceBundle\DependencyInjection;
+namespace Oowlish\SalesforceBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

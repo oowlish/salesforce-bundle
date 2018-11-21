@@ -1,6 +1,6 @@
 <?php
 
-namespace PetCoach\SalesforceBundle\DependencyInjection;
+namespace Oowlish\SalesforceBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
