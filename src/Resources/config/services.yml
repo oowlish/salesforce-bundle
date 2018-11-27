@@ -5,7 +5,7 @@ services:
     GuzzleHttp\ClientInterface:
         alias: '@GuzzleHttp\Client'
 
-    PetCoach\SalesforceBundle\Service\Salesforce:
+    Oowlish\SalesforceBundle\Service\Salesforce:
         arguments:
             - '%salesforce.auth.client_id%'
             - '%salesforce.auth.client_secret%'
