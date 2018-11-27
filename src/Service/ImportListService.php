@@ -10,6 +10,7 @@ use FuelSdk\ET_Import;
 class ImportListService
 {
     private $client;
+
     private $import;
 
     public function __construct(ET_Client $client, ET_Import $import)
@@ -34,7 +35,7 @@ class ImportListService
         $this->import->props['FileSpec'] = $csvFileName;
         $this->import->props['FileType'] = 'CSV';
         $this->import->props['Notification'] = ['ResponseType' => 'email', 'ResponseAddress' => $notificationEmail];
-        $this->import->props['RetrieveFileTransferLocation'] = ['CustomerKey'=>'ExactTarget Enhanced FTP'];
+        $this->import->props['RetrieveFileTransferLocation'] = ['CustomerKey' => 'ExactTarget Enhanced FTP'];
         $this->import->props['UpdateType'] = 'AddAndUpdate';
 
         return $this->import->post();
