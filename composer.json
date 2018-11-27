@@ -24,6 +24,7 @@
         "symfony/dependency-injection": "^3.4||^4.0",
         "symfony/http-kernel": "^3.4||^4.0",
         "symfony/cache": "^3.4||^4.0",
-        "oowlish/salesforce-php-sdk": "dev-master"
+        "oowlish/salesforce-php-sdk": "0.0.1",
+        "salesforce-mc/fuel-sdk-php": "1.1.0"
     }
 }
