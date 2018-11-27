@@ -10,6 +10,7 @@ use FuelSdk\ET_TriggeredSend;
 class TriggeredSendService
 {
     private $client;
+
     private $sendTrigger;
 
     public function __construct(ET_Client $client, ET_TriggeredSend $sendTrigger)
